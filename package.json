@@ -1,0 +1,39 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run clean:allure:results && npx playwright test && npm run report",
+    "clean:allure:results": "rimraf allure-results",
+    "report": "npx allure generate --clean && npx allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.3.0",
+    "@playwright/test": "^1.49.1",
+    "@types/mssql": "^9.1.5",
+    "@types/node": "^22.10.1",
+    "allure-commandline": "^2.32.0",
+    "allure-playwright": "^3.0.7",
+    "monocart-reporter": "^2.9.4",
+    "mssql": "^11.0.1",
+    "rimraf": "^6.0.1"
+  },
+  "dependencies": {
+    "csv-parse": "^5.6.0",
+    "mongoose": "^8.8.3",
+    "mssql": "^11.0.1",
+    "mysql2": "^3.11.5",
+    "pg": "^8.13.1",
+    "playwright": "^1.49.1",
+    "properties-reader": "^2.3.0",
+    "requests": "^0.3.0",
+    "sqlite3": "^5.1.7",
+    "tesseract.js": "^5.1.1",
+    "winston": "^3.17.0",
+    "xlsx": "^0.18.5"
+  }
+}

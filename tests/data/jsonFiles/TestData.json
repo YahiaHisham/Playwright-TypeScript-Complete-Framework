@@ -1,0 +1,11 @@
+{
+  "SearchForProduct": {
+    "productName": "Blue Top"
+  },
+  "AddToCart": {
+    "firstProductName": "Blue Top",
+    "firstProductPrice": "Rs. 500",
+    "secondProductName": "Men Tshirt",
+    "secondProductPrice": "Rs. 400"
+  }
+}
